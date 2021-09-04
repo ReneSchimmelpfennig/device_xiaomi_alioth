@@ -9,8 +9,6 @@
 
 #include "vendor_init.h"
 
-#define FINGERPRINT "google/redfin/redfin:11/RQ3A.210805.001.A1/7474174:user/release-keys"
-
 static const variant_info_t aliothcn_info = {
     .hwc_value = "CN",
     .sku_value = "",
@@ -19,7 +17,7 @@ static const variant_info_t aliothcn_info = {
     .device = "alioth",
     .marketname = "K40",
     .model = "M2012K11AC",
-    .build_fingerprint = FINGERPRINT,
+    .build_fingerprint = "Redmi/alioth/alioth:11/RKQ1.200826.002/V12.5.3.0.RKHMIXM:user/release-keys",
 
     .nfc = true,
 };
@@ -32,7 +30,7 @@ static const variant_info_t aliothin_info = {
     .device = "aliothin",
     .marketname = "Mi 11X",
     .model = "M2012K11AI",
-    .build_fingerprint = FINGERPRINT,
+    .build_fingerprint = "Mi/aliothin/aliothin:11/RKQ1.200826.002/V12.5.3.0.RKHMIXM:user/release-keys",
 
     .nfc = false,
 };
@@ -45,7 +43,7 @@ static const variant_info_t alioth_info = {
     .device = "alioth",
     .marketname = "POCO F3",
     .model = "M2012K11AG",
-    .build_fingerprint = FINGERPRINT,
+    .build_fingerprint = "POCO/alioth_global/alioth:11/RKQ1.200826.002/V12.5.3.0.RKHMIXM:user/release-keys",
 
     .nfc = true,
 };
